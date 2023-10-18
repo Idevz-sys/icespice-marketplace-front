@@ -16062,8 +16062,36 @@ header.stickycls {
   padding-right: 15px;
 }
 
+.full-banner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+#video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+#video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .new-card-home h2 {
   color: white !important;
+}
+
+@media (max-width: 577px) {
+  .full-banner .banner-contain {
+    padding-bottom: 73px !important;
+    padding-top: 13px !important;
+  }
 }
 /* end new css */
 
