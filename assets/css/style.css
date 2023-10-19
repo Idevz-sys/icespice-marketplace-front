@@ -16185,6 +16185,11 @@ header.stickycls {
     padding-top: 13px !important;
   }
 }
+@media (min-width: 376px) {
+  .icon-responsive {
+    margin-top: 0px !important;
+  }
+}
 
 @media (max-width: 950px) {
   .absolute-item {
