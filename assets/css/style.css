@@ -1890,10 +1890,12 @@ button.btn.btn-outline:active {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 40px;
+  padding-right: 40px;
   margin-top: 30px;
   background-color: #2d2a25;
   display: inline-block;
 }
+
 .timer p {
   font-size: 18px;
   color: #fff;
@@ -16085,6 +16087,31 @@ header.stickycls {
 
 .new-card-home h2 {
   color: white !important;
+}
+
+.new-radius-btn {
+  cursor: pointer;
+  background-color: rgb(0 0 0 / 6%) !important;
+}
+
+.new-radius-btn input {
+  pointer-events: none;
+}
+
+.new-radius-btn-selected {
+  background-color: #ff4d3c !important;
+}
+
+.new-radius-btn-selected label {
+  color: white;
+}
+
+.new-radius-btn-selected .form-check-input:checked {
+  background-color: black;
+}
+
+.new-radius-btn label {
+  cursor: pointer;
 }
 
 @media (max-width: 577px) {
