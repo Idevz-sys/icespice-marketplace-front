@@ -554,7 +554,7 @@
     <section class="p-0">
         <div class="slide-1 home-slider">
             <div>
-                <div class="home  text-center">
+                <div class="home text-center position-relative">
                     <img src="../assets/images/icespice/home-slider.png" alt="" class="bg-img blur-up lazyload">
                     <div class="container">
                         <div class="row">
@@ -635,9 +635,47 @@
     </section> -->
     <!-- collection banner end -->
 
+    <!-- Seletor de categoria Filtro -->
+    <div class="position-relative">
+        <div class="elemento-absoluto">
+            <div class="z-1 absolute-item">
+                <div class="new-card-container px-4 py-4 rounded justify-content-center d-flex w-100">
+                    <div class="content-container d-flex flex-column justify-content-center w-100">
+                        <h1>Alugue Roupas de Ski de Alta Qualidade!</h1>
+                        <p>Começar é Fácil: Selecione sua categoria, data inicial e
+                            final para ver a disponibilidade.</p>
+
+                        <div class="d-flex flex-row gap-3 align-items-center flex-wrap">
+                            <div class="col-12 col-md-auto">
+                                <label for="labelCategory">Categoria</label>
+                                <select class="form-select" id="labelCategory">
+                                    <option value="1" selected>teste</option>
+                                    <option value="2">teste1</option>
+                                    <option value="3">teste2</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-md-auto">
+                                <label for="dateInit">Data inicial</label>
+                                <input placeholder="Selecione data inicial" type="date" class="form-control"
+                                    id="dateInit" />
+                            </div>
+                            <div class="col-12 col-md-auto">
+                                <label for="dateFinal">Data final</label>
+                                <input placeholder="Selecione data inicial" type="date" class="form-control"
+                                    id="dateFinal" />
+                            </div>
+                            <div class="col-12 col-md-auto final-col center-btn-avaliable">
+                                <button class="btn btn-solid">Ver Disponibilidade</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Paragraph-->
-    <div class="title1 section-t-space">
+    <div class="title1 section-t-space title-new-primary">
         <h4>Novos Lançamentos</h4>
         <h2 class="title-inner1">Últimas Coleções</h2>
     </div>
