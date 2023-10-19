@@ -16131,6 +16131,11 @@ header.stickycls {
   max-width: 700px;
 }
 
+.new-card-container:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
 .content-container h1 {
   font-size: 20px !important;
 }
@@ -16185,6 +16190,11 @@ header.stickycls {
   .absolute-item {
     position: relative;
     top: 0px;
+  }
+
+  .new-card-container:hover {
+    transform: none;
+    transition: 0.5s ease;
   }
 
   .center-btn-avaliable {
