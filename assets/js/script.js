@@ -1937,8 +1937,8 @@
     $.notify(
       {
         icon: "fa fa-check",
-        title: "Success!",
-        message: "Item Successfully added to your cart",
+        title: "Sucesso!",
+        message: "Item adicionado com sucesso ao seu carrinho",
       },
       {
         element: "body",
@@ -1984,8 +1984,8 @@
       $.notify(
         {
           icon: "fa fa-check",
-          title: "Success!",
-          message: "Item Successfully added in wishlist",
+          title: "Sucesso!",
+          message: "Item adicionado com sucesso na lista de desejos",
         },
         {
           element: "body",
