@@ -16193,49 +16193,88 @@ header.stickycls {
 
 /* img slide responsive */
 @media (max-width: 603px) {
-  .home-slider .home {
+  .home-slider .slider-img-1 {
     background-position-x: -251px !important;
   }
 }
 
 @media (max-width: 414px) and (min-width: 414px) {
-  .home-slider .home {
+  .home-slider .slider-img-1 {
     background-position-x: -451px !important;
+  }
+  .home-slider .slider-img-2 {
+    background-position-x: -365px !important;
+  }
+}
+@media (max-width: 375px) and (min-width: 375px) {
+  .home-slider .slider-img-2 {
+    background-position-x: -236px !important;
   }
 }
 @media (max-width: 390px) and (min-width: 390px) {
-  .home-slider .home {
+  .home-slider .slider-img-1 {
     background-position-x: -411px !important;
+  }
+  .home-slider .slider-img-2 {
+    background-position-x: -345px !important;
   }
 }
 @media (max-width: 393px) and (min-width: 393px) {
-  .home-slider .home {
+  .home-slider .slider-img-1 {
     background-position-x: -408px !important;
+  }
+  .home-slider .slider-img-2 {
+    background-position-x: -345px !important;
+  }
+}
+@media (max-width: 360px) and (min-width: 360px) {
+  .home-slider .slider-img-2 {
+    background-position-x: -242px !important;
   }
 }
 @media (max-width: 412px) and (min-width: 412px) {
-  .home-slider .home {
+  .home-slider .slider-img-1 {
     background-position-x: -464px !important;
+  }
+  .home-slider .slider-img-2 {
+    background-position-x: -377px !important;
   }
 }
 @media (max-width: 820px) and (min-width: 820px) {
-  .home-slider .home {
+  .home-slider .slider-img-1 {
     background-position-x: -837px !important;
+  }
+  .home-slider .slider-img-2 {
+    background-position-x: -662px !important;
   }
 }
 @media (max-width: 768px) and (min-width: 768px) {
-  .home-slider .home {
+  .home-slider .slider-img-1 {
     background-position-x: -716px !important;
+  }
+  .home-slider .slider-img-2 {
+    background-position-x: -553px !important;
   }
 }
 @media (max-width: 912px) and (min-width: 912px) {
-  .home-slider .home {
+  .home-slider .slider-img-1 {
     background-position-x: -991px !important;
+  }
+  .home-slider .slider-img-2 {
+    background-position-x: -794px !important;
   }
 }
 @media (max-width: 540px) and (min-width: 540px) {
-  .home-slider .home {
+  .home-slider .slider-img-1 {
     background-position-x: -377px !important;
+  }
+  .home-slider .slider-img-2 {
+    background-position-x: -318px !important;
+  }
+}
+@media (max-width: 280px) and (min-width: 280px) {
+  .home-slider .slider-img-2 {
+    background-position-x: -229px !important;
   }
 }
 
