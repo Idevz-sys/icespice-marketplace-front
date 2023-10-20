@@ -13055,7 +13055,7 @@ header.stickycls {
     color: #999;
   }
   .main-menu .menu-right .icon-nav .mobile-cart > div img {
-    display: none;
+    /* display: none; */
   }
   .main-menu .menu-right .icon-nav .mobile-search {
     right: 80%;
@@ -16069,6 +16069,15 @@ header.stickycls {
   overflow: hidden;
   width: 100%;
   height: 100vh;
+}
+
+.card-info-new {
+  display: flex !important;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  align-items: center;
 }
 
 .title1 h4 {
