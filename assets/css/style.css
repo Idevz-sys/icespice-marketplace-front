@@ -16178,6 +16178,11 @@ header.stickycls {
 }
 
 /* Seletor de categoria final */
+@media (min-width: 376px) {
+  .icon-responsive {
+    margin-top: 0px !important;
+  }
+}
 
 @media (max-width: 577px) {
   .full-banner .banner-contain {
@@ -16185,9 +16190,10 @@ header.stickycls {
     padding-top: 13px !important;
   }
 }
-@media (min-width: 376px) {
-  .icon-responsive {
-    margin-top: 0px !important;
+
+@media (max-width: 603px) {
+  .home-slider .home {
+    background-position-x: -251px !important;
   }
 }
 
@@ -16207,8 +16213,7 @@ header.stickycls {
     justify-content: center;
     text-align: center;
   }
-}
-@media (min-width: 950px) {
+
   .title-new-primary {
     margin-top: 10%;
   }
