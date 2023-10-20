@@ -16198,6 +16198,16 @@ header.stickycls {
   }
 }
 
+@media (max-width: 734px) {
+  .new-slider-size .slick-slide {
+    width: 105px !important;
+  }
+
+  .new-slider-size .slick-slide img {
+    width: 50px;
+  }
+}
+
 @media (max-width: 414px) and (min-width: 414px) {
   .home-slider .slider-img-1 {
     background-position-x: -451px !important;
