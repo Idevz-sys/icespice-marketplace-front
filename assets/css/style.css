@@ -16197,6 +16197,27 @@ header.stickycls {
   }
 }
 
+@media (max-width: 414px) and (min-width: 414px) {
+  .home-slider .home {
+    background-position-x: -451px !important;
+  }
+}
+@media (max-width: 390px) and (min-width: 390px) {
+  .home-slider .home {
+    background-position-x: -411px !important;
+  }
+}
+@media (max-width: 393px) and (min-width: 393px) {
+  .home-slider .home {
+    background-position-x: -408px !important;
+  }
+}
+@media (max-width: 412px) and (min-width: 412px) {
+  .home-slider .home {
+    background-position-x: -464px !important;
+  }
+}
+
 @media (max-width: 950px) {
   .absolute-item {
     position: relative;
