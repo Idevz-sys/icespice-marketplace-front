@@ -16071,6 +16071,10 @@ header.stickycls {
   height: 100vh;
 }
 
+.title1 h4 {
+  text-transform: none;
+}
+
 #video-container {
   position: absolute;
   top: 0;
@@ -16983,7 +16987,7 @@ header.stickycls {
   letter-spacing: 0.03em;
 }
 .service-block p {
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   margin-bottom: 0;
 }
 .service-block + .service-block {
