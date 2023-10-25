@@ -16064,6 +16064,14 @@ header.stickycls {
   padding-right: 15px;
 }
 
+ul.header-dropdown i::before {
+  color: var(--theme-color);
+}
+
+.icon-nav i::before {
+  color: var(--theme-color);
+}
+
 .full-banner {
   position: relative;
   overflow: hidden;
