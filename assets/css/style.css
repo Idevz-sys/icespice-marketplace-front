@@ -16371,6 +16371,11 @@ header.stickycls {
   padding: 8px;
   font-size: 16px;
 }
+
+.closet {
+  text-align: center;
+}
+
 .bakery-box .product-box .add-button {
   background-color: var(--theme-color);
   color: white;
