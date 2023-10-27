@@ -2171,3 +2171,68 @@ $(document).ready(function () {
     }
   });
 });
+
+// Função para alterar a imagem com base na largura da tela usando jQuery
+function alterarImagemComBaseNaLarguraDaTela() {
+  var larguraDaTela = $(window).width();
+
+  // Se a largura da tela for igual ou inferior a 768 pixels
+  if (larguraDaTela <= 768) {
+    $("#imagem").attr(
+      "src",
+      "../../assets/images/icespice/home-slider-mobile.png"
+    );
+  } else {
+    $("#imagem").attr("src", "../../assets/images/icespice/home-slider.png");
+  }
+}
+
+// Chama a função quando a página é carregada e quando a janela é redimensionada
+$(document).ready(function () {
+  alterarImagemComBaseNaLarguraDaTela(); // Chama a função ao carregar a página
+
+  // Chama a função quando a janela é redimensionada
+  $(window).resize(function () {
+    alterarImagemComBaseNaLarguraDaTela();
+  });
+});
+
+// Função para alterar o background-image da div com base na largura da tela usando jQuery
+function alterarImagemDeFundoComBaseNaLarguraDaTela() {
+  var larguraDaTela = $(window).width();
+
+  // Se a largura da tela for igual ou inferior a 768 pixels
+  if (larguraDaTela <= 768) {
+    // Altera o background-image da div com id "changeImg" para a versão mobile
+    $("#changeImg").css(
+      "background-image",
+      "url('../../assets/images/icespice/home-slider-mobile.png')"
+    );
+
+    $("#changeImg1").css(
+      "background-image",
+      "url('../../assets/images/icespice/home-slider1-mobile.png')"
+    );
+  } else {
+    // Altera o background-image da div com id "changeImg" para a versão desktop
+    $("#changeImg").css(
+      "background-image",
+      "url('../../assets/images/icespice/home-slider.png')"
+    );
+
+    $("#changeImg1").css(
+      "background-image",
+      "url('../../assets/images/icespice/home-slider1.jpg')"
+    );
+  }
+}
+
+// Chama a função quando a página é carregada e quando a janela é redimensionada
+$(document).ready(function () {
+  alterarImagemDeFundoComBaseNaLarguraDaTela(); // Chama a função ao carregar a página
+
+  // Chama a função quando a janela é redimensionada
+  $(window).resize(function () {
+    alterarImagemDeFundoComBaseNaLarguraDaTela();
+  });
+});
